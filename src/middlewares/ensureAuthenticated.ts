@@ -34,6 +34,4 @@ export default function ensureAuthenticated(
     } catch {
         throw new Error('Invalid JWT token!');
     }
-
-};
-
+}
